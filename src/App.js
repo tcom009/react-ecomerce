@@ -6,6 +6,7 @@ import Categories from "./pages/Categories";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import ProductPage from "./pages/ProductPage";
+import ProductList from "./pages/ProducList";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 						<Route exact path="/categories" component={Categories} />
 						<Route exact path="/cart" component={Cart} />
 						<Route exact path="/product" component={ProductPage} />
+						<Route exact path="/productlist" component={ProductList} />
 						<Route component={NotFound} />
 					</Switch>
 				</Layout>

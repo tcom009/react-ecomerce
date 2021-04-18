@@ -22,6 +22,9 @@ function Navbar() {
 					<Link to="/cart" className="navbar-item">
 						Carrito
 					</Link>
+					<Link to="/productlist" className="navbar-item">
+						Lista de productos
+					</Link>
 				</div>
 			</div>
 		</nav>
